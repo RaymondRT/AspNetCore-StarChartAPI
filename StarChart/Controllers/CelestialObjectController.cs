@@ -15,7 +15,8 @@ namespace StarChart.Controllers
         {
             _context = context;
         }
-        [Route("api")]
+
+        [Route("")]
         public IActionResult Index()
         {
             return View();
